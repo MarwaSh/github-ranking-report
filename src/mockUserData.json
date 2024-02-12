@@ -1,0 +1,236 @@
+[
+    {
+      "id": "A",
+      "name": "Matthew Shahin",
+      "avatar": "https://avatars.githubusercontent.com/u/1",
+      "profileLink": "https://github.com/Matthew",
+      "creationDate": "2023-01-01",
+      "followersRank": 10,
+      "followers": ["B", "C", "D"]
+    },
+    {
+      "id": "B",
+      "name": "Alex Johnson",
+      "avatar": "https://avatars.githubusercontent.com/u/2",
+      "profileLink": "https://github.com/AlexJ",
+      "creationDate": "2023-02-01",
+      "followersRank": 15,
+      "followers": ["D", "E", "K"]
+    },
+    {
+      "id": "C",
+      "name": "Samantha Bloom",
+      "avatar": "https://avatars.githubusercontent.com/u/3",
+      "profileLink": "https://github.com/SamBloom",
+      "creationDate": "2023-03-01",
+      "followersRank": 12,
+      "followers": ["K", "L"]
+    },
+    {
+      "id": "D",
+      "name": "Michael Reeves",
+      "avatar": "https://avatars.githubusercontent.com/u/4",
+      "profileLink": "https://github.com/MikeReeves",
+      "creationDate": "2023-04-01",
+      "followersRank": 8,
+      "followers": ["A", "B"]
+    },
+    {
+      "id": "E",
+      "name": "Jessica Tan",
+      "avatar": "https://avatars.githubusercontent.com/u/5",
+      "profileLink": "https://github.com/JessTan",
+      "creationDate": "2023-05-01",
+      "followersRank": 7,
+      "followers": ["C", "F"]
+    },
+    {
+      "id": "F",
+      "name": "Daniel Kim",
+      "avatar": "https://avatars.githubusercontent.com/u/6",
+      "profileLink": "https://github.com/DanKim",
+      "creationDate": "2023-06-01",
+      "followersRank": 9,
+      "followers": ["G", "H"]
+    },
+    {
+      "id": "G",
+      "name": "Olivia Santos",
+      "avatar": "https://avatars.githubusercontent.com/u/7",
+      "profileLink": "https://github.com/OliviaSantos",
+      "creationDate": "2023-07-01",
+      "followersRank": 5,
+      "followers": ["I"]
+    },
+    {
+      "id": "H",
+      "name": "Ethan Wright",
+      "avatar": "https://avatars.githubusercontent.com/u/8",
+      "profileLink": "https://github.com/EthanWright",
+      "creationDate": "2023-08-01",
+      "followersRank": 4,
+      "followers": ["J", "K"]
+    },
+    {
+      "id": "I",
+      "name": "Sophia Lane",
+      "avatar": "https://avatars.githubusercontent.com/u/9",
+      "profileLink": "https://github.com/SophiaLane",
+      "creationDate": "2023-09-01",
+      "followersRank": 6,
+      "followers": ["L", "M"]
+    },
+    {
+      "id": "J",
+      "name": "Lucas Martin",
+      "avatar": "https://avatars.githubusercontent.com/u/10",
+      "profileLink": "https://github.com/LucasMartin",
+      "creationDate": "2023-10-01",
+      "followersRank": 11,
+      "followers": ["N", "O", "P"]
+    },
+    {
+      "id": "K",
+      "name": "Charlotte Reed",
+      "avatar": "https://avatars.githubusercontent.com/u/11",
+      "profileLink": "https://github.com/CharlotteReed",
+      "creationDate": "2023-11-01",
+      "followersRank": 13,
+      "followers": ["A", "E"]
+    },
+    {
+      "id": "L",
+      "name": "Noah Clark",
+      "avatar": "https://avatars.githubusercontent.com/u/12",
+      "profileLink": "https://github.com/NoahClark",
+      "creationDate": "2023-12-01",
+      "followersRank": 10,
+      "followers": ["B", "F", "J"]
+    },
+    {
+      "id": "M",
+      "name": "Lily Zhang",
+      "avatar": "https://avatars.githubusercontent.com/u/13",
+      "profileLink": "https://github.com/LilyZhang",
+      "creationDate": "2024-01-01",
+      "followersRank": 14,
+      "followers": ["C", "G", "K"]
+    },
+    {
+      "id": "N",
+      "name": "James Peterson",
+      "avatar": "https://avatars.githubusercontent.com/u/14",
+      "profileLink": "https://github.com/JamesPeterson",
+      "creationDate": "2024-02-01",
+      "followersRank": 16,
+      "followers": ["D", "H", "L"]
+    },
+    {
+      "id": "O",
+      "name": "Amelia Earhart",
+      "avatar": "https://avatars.githubusercontent.com/u/15",
+      "profileLink": "https://github.com/AmeliaEarhart",
+      "creationDate": "2024-03-01",
+      "followersRank": 18,
+      "followers": ["I", "M"]
+    },
+    {
+      "id": "P",
+      "name": "Benjamin Franklin",
+      "avatar": "https://avatars.githubusercontent.com/u/16",
+      "profileLink": "https://github.com/BenjaminFranklin",
+      "creationDate": "2024-04-01",
+      "followersRank": 20,
+      "followers": ["N"]
+    },
+    {
+        "id": "Q",
+        "name": "Grace Hopper",
+        "avatar": "https://avatars.githubusercontent.com/u/17",
+        "profileLink": "https://github.com/GraceHopper",
+        "creationDate": "2024-05-01",
+        "followersRank": 22,
+        "followers": ["O", "P", "R"]
+      },
+      {
+        "id": "R",
+        "name": "Alan Turing",
+        "avatar": "https://avatars.githubusercontent.com/u/18",
+        "profileLink": "https://github.com/AlanTuring",
+        "creationDate": "2024-06-01",
+        "followersRank": 24,
+        "followers": ["S", "T"]
+      },
+      {
+        "id": "S",
+        "name": "Ada Lovelace",
+        "avatar": "https://avatars.githubusercontent.com/u/19",
+        "profileLink": "https://github.com/AdaLovelace",
+        "creationDate": "2024-07-01",
+        "followersRank": 26,
+        "followers": ["U", "V"]
+      },
+      {
+        "id": "T",
+        "name": "Linus Torvalds",
+        "avatar": "https://avatars.githubusercontent.com/u/20",
+        "profileLink": "https://github.com/LinusTorvalds",
+        "creationDate": "2024-08-01",
+        "followersRank": 28,
+        "followers": ["W", "X"]
+      },
+      {
+        "id": "U",
+        "name": "Margaret Hamilton",
+        "avatar": "https://avatars.githubusercontent.com/u/21",
+        "profileLink": "https://github.com/MargaretHamilton",
+        "creationDate": "2024-09-01",
+        "followersRank": 30,
+        "followers": ["Y", "Z"]
+      },
+      {
+        "id": "V",
+        "name": "Tim Berners-Lee",
+        "avatar": "https://avatars.githubusercontent.com/u/22",
+        "profileLink": "https://github.com/TimBernersLee",
+        "creationDate": "2024-10-01",
+        "followersRank": 32,
+        "followers": ["A", "B", "C"]
+      },
+      {
+        "id": "W",
+        "name": "Jean Bartik",
+        "avatar": "https://avatars.githubusercontent.com/u/23",
+        "profileLink": "https://github.com/JeanBartik",
+        "creationDate": "2024-11-01",
+        "followersRank": 34,
+        "followers": ["D", "E", "F"]
+      },
+      {
+        "id": "X",
+        "name": "Konrad Zuse",
+        "avatar": "https://avatars.githubusercontent.com/u/24",
+        "profileLink": "https://github.com/KonradZuse",
+        "creationDate": "2024-12-01",
+        "followersRank": 36,
+        "followers": ["G", "H", "I"]
+      },
+      {
+        "id": "Y",
+        "name": "Steve Wozniak",
+        "avatar": "https://avatars.githubusercontent.com/u/25",
+        "profileLink": "https://github.com/SteveWozniak",
+        "creationDate": "2025-01-01",
+        "followersRank": 38,
+        "followers": ["J", "K", "L"]
+      },
+      {
+        "id": "Z",
+        "name": "Robert Noyce",
+        "avatar": "https://avatars.githubusercontent.com/u/26",
+        "profileLink": "https://github.com/RobertNoyce",
+        "creationDate": "2025-02-01",
+        "followersRank": 40,
+        "followers": ["M", "N", "O"]
+      }
+  ]

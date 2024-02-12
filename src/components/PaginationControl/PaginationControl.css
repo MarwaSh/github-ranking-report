@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-item a {
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    color: #007bff;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .page-item a:hover,
+  .page-item.active a {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Optional: Improving accessibility for visually impaired users */
+  .page-item a:focus {
+    outline: 3px solid #007bff;
+    outline-offset: 2px;
+  }
+  
