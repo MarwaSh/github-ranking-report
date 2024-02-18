@@ -16,7 +16,7 @@ const UserSearchForm = ({ onValidSubmit, setDisplayedUsers  }) => {
   const validateUsername = (username) => {
     if (!username.trim()) {
       setErrorMessage('Username cannot be empty.');
-      setDisplayedUsers([]);
+      setDisplayedUsers([]); //Clear the displayUsers
       return false;
     }
     return true;
@@ -25,7 +25,7 @@ const UserSearchForm = ({ onValidSubmit, setDisplayedUsers  }) => {
   const validateDepth = (depth) => {
     if (depth < 1 || isNaN(depth)) {
       setErrorMessage('Depth must be a positive integer.');
-      setDisplayedUsers([]); // Clear any existing error messages upon successful validation
+      setDisplayedUsers([]);
       return false;
     }
     return true;

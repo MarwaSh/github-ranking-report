@@ -1,0 +1,23 @@
+.sort-select {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .sort-select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .sort-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sort-label {
+    margin-right: 8px;
+  }
+  

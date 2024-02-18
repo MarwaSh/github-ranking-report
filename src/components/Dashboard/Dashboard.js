@@ -9,6 +9,7 @@ import React, { useState, useEffect } from 'react';
 import UserSearchForm from './../UserSearchForm/UserSearchForm'; 
 import UserItem from './../UserItem/UserItem';
 import PaginationControl from './../PaginationControl/PaginationControl';
+import { SortSelect } from './../SortSelect/SortSelect';
 import mockData from './../../mockUserData.json';
 import { fetchFollowers } from '../../services/userService';
 import './Dashboard.css';
@@ -63,11 +64,7 @@ const Dashboard = () => {
     <div className="dashboard">
       <UserSearchForm onValidSubmit={handleValidSubmit} setDisplayedUsers={setDisplayedUsers} />
       {errorMessage && <div className="error-message">{errorMessage}</div>}
-      <select value={sortCriteria} onChange={(e) => setSortCriteria(e.target.value)} className="sort-select">
-        <option value="name">Name</option>
-        <option value="creationDate">Creation Date</option>
-        <option value="followersRank">Followers Rank</option>
-      </select>
+      <SortSelect sortCriteria={sortCriteria} setSortCriteria={setSortCriteria} />
       <div className="user-list">
         {displayedUsers.slice((currentPage - 1) * usersPerPage, currentPage * usersPerPage).map(user => (
           <UserItem key={user.id} user={user} />

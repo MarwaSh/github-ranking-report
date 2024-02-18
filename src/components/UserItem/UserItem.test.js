@@ -4,7 +4,7 @@ import '@testing-library/jest-dom';
 import UserItem from './UserItem';
 import mockData from './../../mockUserData.json';
 
-const testUser = mockData[0]; // Use the first user in the mock data for simplicity
+const testUser = mockData[0];
 
 describe('UserItem Component with mockData', () => {
   it('renders user information correctly using mockData', () => {

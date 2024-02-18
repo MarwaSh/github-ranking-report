@@ -45,8 +45,7 @@ describe('UserSearchForm Component', () => {
     fireEvent.change(getByPlaceholderText('Enter user name'), { target: { value: 'testuser' } });
     fireEvent.change(getByPlaceholderText('Depth'), { target: { value: '3' } });
     fireEvent.click(getByText('Fetch Followers'));
-
-    // Ensure arguments are as expected.
+    
     expect(mockSubmit).toHaveBeenCalledWith('testuser', 3);
   });
 });
