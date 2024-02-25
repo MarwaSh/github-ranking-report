@@ -2,7 +2,7 @@
  * The Dashboard.js serves as the primary interface for displaying and managing user information and their followers.
  * It facilitates user search by name, controls the depth of follower information displayed, and dynamically fetches and displays follower data.
  * The component includes pagination for navigating through the list of followers and sorting functionality to order the displayed users by criteria such as name, creation date, or followers rank.
- * It uses React's useState for state management and useEffect for initial data setup, integrating closely with UserSearchForm, UserItem, and PaginationControl components for a comprehensive user experience.
+ * It uses React's useState for state management and useEffect for initial data setup, integrating closely with UserSearchForm, UserItem, SortedSelection and PaginationControl components for a comprehensive user experience.
  */
 
 import React, { useState, useEffect } from 'react';
